@@ -1,0 +1,11 @@
+framework module ZTPartner {
+  umbrella header "ZTPartner.h"
+
+  export *
+  module * { export * }
+}
+
+module ZTPartner.Swift {
+    header "ZTPartner-Swift.h"
+    requires objc
+}
